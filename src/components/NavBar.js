@@ -24,95 +24,69 @@ class NavBar extends React.Component {
                       children: [
                         {
                           type: 'link',
-                          label: 'Daily Care',
-                          icon: 'dashboard',
-                          href: '/daily-care',
+                          label: 'Patient Dashboard',
+                          href: '/',
                         },
                         {
                           type: 'link',
-                          label: 'New Patient',
-                          icon: 'patient-add',
+                          label: 'History',
+                          href: '/history',
+                        
+                        },
+                        {
+                          type: 'link',
+                          label: 'Imaging',
+                         
+                        },
+                        {
+                          type: 'link',
+                          label: 'Labs',
+                         
+                        },
+                        {
+                          type: 'link',
+                          label: 'Care Plan',
+                         
+                        },
+                        {
+                          type: 'link',
+                          label: 'Order Entry',
                           dividerAbove: true,
-                          onClick: () => {
-                            Toast('success', 'New Patient clicked!!', 'Success')
-                          },
+
+                          
                         },
                         {
                           type: 'link',
-                          label: 'Patients List',
-                          icon: 'patients',
-                          onClick: () => {
-                            Toast('success', 'Patients List clicked!!', 'Success')
-                          },
-                        },
-                        {
-                          type: 'link',
-                          label: 'New Appointment',
-                          icon: 'appointment-add',
+                          label: 'Vitals',
                           dividerAbove: true,
-                          onClick: () => {
-                            Toast('success', 'New Appointment clicked!!', 'Success')
-                          },
+
                         },
                         {
                           type: 'link',
-                          label: 'Appointment Schedule',
-                          icon: 'appointment',
-                          onClick: () => {
-                            Toast('success', 'Appointment Schedule clicked!!', 'Success')
-                          },
+                          label: 'Weight',
+                          
                         },
                         {
                           type: 'link',
-                          label: 'New Lab Request',
-                          icon: 'add',
-                          dividerAbove: true,
-                          onClick: () => {
-                            Toast('success', 'New Lab Request clicked!!', 'Success')
-                          },
+                          label: 'Pain',
+                          
                         },
                         {
                           type: 'link',
-                          label: 'Lab Requests',
-                          icon: 'lab',
-                          onClick: () => {
-                            Toast('success', 'Lab Requests clicked!!', 'Success')
-                          },
+                          label: 'Input',
+                         
                         },
                         {
-                          type: 'link',
-                          label: 'Report Incident',
-                          icon: 'add',
-                          dividerAbove: true,
-                          onClick: () => {
-                            Toast('success', 'Report Incident clicked!!', 'Success')
-                          },
-                        },
-                        {
-                          type: 'link',
-                          label: 'Reported Incidents',
-                          icon: 'incident',
-                          onClick: () => {
-                            Toast('success', 'Reported Incidents clicked!!', 'Success')
-                          },
-                        },
-                        {
-                          type: 'link',
-                          label: 'Settings',
-                          icon: 'setting',
-                          dividerAbove: true,
-                          onClick: () => {
-                            Toast('success', 'Settings clicked!!', 'Success')
-                          },
+                            type: 'link',
+                            label: 'Output',
+                           
                         },
                       ],
                     },
                     {
                       type: 'header',
-                      label: 'HospitalRun',
-                      onClick: () => {
-                        Toast('success', 'Header clicked!!', 'Success')
-                      },
+                      label: 'Clark State EHR',
+                      
                     },
                   ]}
                 />
